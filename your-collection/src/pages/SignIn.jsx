@@ -4,7 +4,6 @@ import { FloatingLabel, Form, Stack, Button } from 'react-bootstrap';
 const SignIn = () => {
   return (
     <Stack gap={2} className="col-md-5 mt-5 mx-auto">
-    <Form></Form>
       <FloatingLabel
         controlId="floatingInput"
         label="Email address"
