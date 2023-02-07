@@ -7,6 +7,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.listen(PORT, () => {
-    console.log('server success');
-})
+const start = async () => {
+    try {
+        server.listen(PORT, () => {
+            console.log('Success server')
+        });
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+start();
